@@ -45,15 +45,6 @@ SUBJECT <- rbind(subject_train, subject_test)
 SELECTED_FEATURES <- grep("-(mean|std)\\(\\)", features[, 2])
 
 
-
-
-
-
-
-
-
-
-
 #This creates the subsetted frame with the variables we want. Note that SELECTED_FEATURES is in the square 
 #brackets after the comma, column position, so we only fetch the columns we selected in the previous step
 X_DATA <- X_DATA[, SELECTED_FEATURES]
@@ -87,8 +78,6 @@ Y_DATA[,1] <- activitiez[Y_DATA[,1], 2]
 #Assign a proper column name
 names(Y_DATA) <- "activity"
 
-#Alternative Code which should do the same
-#train_test_frame$activity <- factor(train_test_frame$activity, levels = activity_labels[,1], labels = activity_labels[,2])
 
 
 
