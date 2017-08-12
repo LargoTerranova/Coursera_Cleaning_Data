@@ -1,33 +1,44 @@
 # Code Book
 
 
-## Introduction
-The Following page describes roughly which steps were taken
-
-
 ## Raw Data
-This is the raw data being used for the task
+This is the raw data being used for the task. It can be found here:
 
+[DataSource](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-### This is the numerical data being used
+### These files contain the numerical data
 * x_train.txt
 * y_train.txt
 * x_test.txt
 * y_test.txt
 
-### Each row contains data on one person (1-30). There are multiple rows per person indicating different activities
+### Each row contains data on one person. The number (1-30) indicates which person.
 * subject_test.txt
 * subject_train.txt
 
 ### The variable names contained in x/y test/rain data (above)
 * features.txt
 
-
 ### Coded activity levels. Every number (1-6) indicates an activity (running, walking, ...)
 * activity_labels.txt
 
+There are six activities:
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
+
 
 ## Variable Names
+The following convention is used:
+
+* A `T` stands for time
+* A `F` stands for Frequency
+* A `X`,`Y`, `Z` is for the coordinate plane
+* `MEAN` is for the statistical mean
+* `STD` is for standard deviation  
 
 "activity"              
 "subject"   
@@ -100,14 +111,6 @@ This is the raw data being used for the task
 
 
 
-Row Names
+## Row Names
 
-
-
-
-
-Solution
-
-
-
-[Data Source] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+Each row represents one subject (1-30) performing one activity
