@@ -158,11 +158,11 @@ str(AVERAGE)
 #######################################
 #Write Table
 #######################################
-write.table(AVERAGE, "AVERAGE.txt")
+write.table(AVERAGE, "AVERAGES.txt", row.names = FALSE)
 
 
 #Reload to inspect if everything was saved correctly
-FINAL <- read.table("AVERAGE.txt")
+FINAL <- read.table("AVERAGES.txt")
 str(FINAL)
 FINAL[1:10,1:5]
 
