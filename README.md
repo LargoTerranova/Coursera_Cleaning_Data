@@ -22,25 +22,25 @@ Merges the TRAIN and TEST data
 * Subsetting:
 Picks the variables `mean` and `std` from the master dataset
 
-* Naming Variables
+* Naming Variables:
 Takes the `Features` vector and combines it with the raw data
 
-* Matching Numbers and activities
+* Matching Numbers and activities:
 Assigns an activity (running, walking, ...) to each row
 
-* Labels with descriptive variable names
+* Labels with descriptive variable names:
 Again naming a column
 
-* Merge all Data
+* Merge all Data:
 This merges the X_Data, the Y_Data and the Subject
 
-* Create Tidy variable names
+* Create Tidy variable names:
 Removes characters like `()` and `-` from the dataset, making it tidy
 
-* Calculate AVERAGES
+* Calculate AVERAGES:
 This calculates the averages over the entire dataset
 
-* Write Table
+* Write Table:
 Saves the result
 
 
