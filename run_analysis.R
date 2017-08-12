@@ -1,7 +1,7 @@
 #######################################
 #Read in Data##########################
 #######################################
-setwd("../DataScience/3_Cleaning_data/Assignement/wd/")
+setwd("C:/Users/boband/Google Drive/DataScience/3_Cleaning_data/Assignement/wd/")
 
 
 #Variable Names
