@@ -22,7 +22,12 @@ This is the raw data being used for the task. It can be found here:
 ### Coded activity levels. Every number (1-6) indicates an activity (running, walking, ...)
 * activity_labels.txt
 
-There are six activities:
+
+
+# Identifiers
+
+## Activities
+There are six activities coded in the variable `activities`:
 1. WALKING
 2. WALKING_UPSTAIRS
 3. WALKING_DOWNSTAIRS
@@ -30,8 +35,11 @@ There are six activities:
 5. STANDING
 6. LAYING
 
+## Subject   
+Each row represents one subject (1-30) performing one activity. It is coded in the variable `subject`
 
-## Variable Names
+
+## Other Variable Names
 The following convention is used:
 
 * A `T` stands for time
@@ -40,8 +48,6 @@ The following convention is used:
 * `MEAN` is for the statistical mean
 * `STD` is for standard deviation  
 
-"activity"              
-"subject"   
 "T_BodyAcc_MEAN_X"       
 "T_BodyAcc_MEAN_Y"       
 "T_BodyAcc_MEAN_Z"       
@@ -108,9 +114,3 @@ The following convention is used:
 "F_BodyGyroMag_STD"      
 "F_BodyGyroJerkMag_MEAN"
 "F_BodyGyroJerkMag_STD"  
-
-
-
-## Row Names
-
-Each row represents one subject (1-30) performing one activity
